@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    display: flex;/*arrange children easily*/
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    border:2px solid black;
+}
+
+.box{
+    width: 80px;
+    height: 80px;
+    background: hotpink;
+    margin: 10px;
+    color: white;
+    font-size: 25px;
+     
+    justify-content: center;
+    align-items: center;
+}
