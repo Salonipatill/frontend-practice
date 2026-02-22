@@ -1,0 +1,25 @@
+body{
+    font-family:Arial, sans-serif;
+
+}
+
+.container{
+    display: grid;/*Turns the element into a grid container.*/
+    grid-template-columns: repeat(3,100px);/*grid-template-columns → defines how many columns
+repeat(3, 100px) means:
+Make 3 columns
+Each column = 100px wide*/
+    gap:10px;/*Adds space between grid boxes.*/
+    justify-content:center;
+    margin-top:40px;
+
+}
+
+.box{
+    height: 100px;
+    background: purple;    color:white;
+    font-size:25px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
