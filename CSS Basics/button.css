@@ -1,6 +1,6 @@
 body{
     font-family:Arial;
-    background:#f4f6f9;
+    background:hsl(223, 30%, 95%);
     text-align:center;
     padding:40px;
 }
@@ -45,6 +45,7 @@ button{
 
 .hoverbtn:hover{
     background: black;
+    color:rgb(236, 248, 164);
 
 }
 
@@ -75,5 +76,5 @@ button{
 }
 
 .danger:hover{
-   background:darked; 
+   background:rebeccapurple; 
 }
