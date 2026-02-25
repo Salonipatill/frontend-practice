@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 00vh;
+    width: 100%;
+    background: url('https://via.placeholder.com/1200x800?text=College+Background') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.overlay{
+    background: rgba(0,0,0,0.4);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ad-page{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.right-column img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+}
+
+.right-column{
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+.right-column h1{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background: #e91e63;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #c12387;
+
+}
+
