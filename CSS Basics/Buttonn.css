@@ -1,0 +1,36 @@
+body{
+    font-family: Arial;
+    background: hsl(223, 30%, 95%);
+    text-align: center;
+    padding: 40px;
+}
+
+button{
+    padding: 12px 20px;
+    font-size:16px;
+    margin:10px;
+    cursor:pointer;
+    border: none;
+    transition:0.3s;    
+}
+.one{
+    width:500px;
+    height:100px;
+    color:rgb(90, 73, 185);
+    justify-content: center;
+}
+
+p{
+    color:black;
+}
+
+.normal{
+    background:rgb(159, 57, 74);
+    color:white;
+
+}
+
+.normal:hover{
+    background:black;
+    color:yellowgreen;
+}

@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#cc7e7e;
+    
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: #4f46e5;
+    color: white;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    border-radius: 10px;
+    font-size: 20px;
+}
